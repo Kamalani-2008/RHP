@@ -12,18 +12,14 @@ public class SushiProblem {
 
         long[] A = new long[N];
         long[] B = new long[M];
-
-        // Read array A
         for (int i = 0; i < N; i++) {
             A[i] = sc.nextLong();
         }
 
-        // Read array B
         for (int i = 0; i < M; i++) {
             B[i] = sc.nextLong();
         }
 
-        // Sort both arrays
         Arrays.sort(A);
         Arrays.sort(B);
 
